@@ -10,8 +10,9 @@ function Likes({ like, onIncrementLike, onDecrementLike }) {
 }
 
 function mapStateToProps(state) {
+  const { likesReducer } = state;
   return {
-    like: state.like,
+    like: likesReducer.like,
   };
 }
 
