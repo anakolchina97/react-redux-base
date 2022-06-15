@@ -9,8 +9,8 @@
 .card {
   display: flex;
   padding: 20px;
-  border: 1px solid #EDEEED;
-  box-shadow: 0 0 0 5px rgba(0,0,0,0.03);
+  border: 1px solid #edeeed;
+  box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.03);
   flex-basis: calc(33.333% - 40px);
   flex-grow: 1;
   flex-shrink: 0;
@@ -69,6 +69,7 @@ button {
   color: #125688;
   transition: all 0.2s;
   box-sizing: padding-box;
+  cursor: pointer;
 }
 button hover {
   border-color: #125688;
@@ -99,9 +100,7 @@ input {
   font-size: 18px;
   max-width: 240px;
   color: #fff;
-  background: linear-gradient(20deg, rgba(255,0,0,1) 0%, rgba(200,0,0,1) 100%);
+  background: linear-gradient(20deg, rgba(255, 0, 0, 1) 0%, rgba(200, 0, 0, 1) 100%);
   padding: 10px 20px;
   border: 1px solid rgba(10, 10, 10, 0.25);
 }
-
-
