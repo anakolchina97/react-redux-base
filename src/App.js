@@ -1,7 +1,7 @@
-import './App.css';
 import Likes from './Likes';
 import Title from './Title';
 import Comments from './Comments';
+import './App.css';
 
 function App() {
   return (
