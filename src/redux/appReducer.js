@@ -3,7 +3,7 @@ import {
   LOADER_DISPLAY_OFF,
   ERROR_DISPLAY_ON,
   ERROR_DISPLAY_OFF,
-} from './types';
+} from "./types";
 
 const intialState = {
   loading: false,

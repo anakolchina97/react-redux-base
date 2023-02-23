@@ -1,5 +1,5 @@
-import { connect } from 'react-redux';
-import { incrementLikes, decrementLikes } from './redux/actions';
+import { connect } from "react-redux";
+import { incrementLikes, decrementLikes } from "./redux/actions";
 
 function Likes({ like, onIncrementLike, onDecrementLike }) {
   return (

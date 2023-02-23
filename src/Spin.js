@@ -1,7 +1,7 @@
-import { useSelector } from 'react-redux';
-import { MutatingDots } from 'react-loader-spinner';
+import { useSelector } from "react-redux";
+import { MutatingDots } from "react-loader-spinner";
 
-const Spin = (props) => {
+const Spin = () => {
   const spinner = useSelector((state) => state.appReducer.loading);
 
   return (

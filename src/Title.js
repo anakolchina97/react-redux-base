@@ -1,7 +1,7 @@
-import { useDispatch, useSelector } from 'react-redux';
-import { inputText } from './redux/actions';
+import { useDispatch, useSelector } from "react-redux";
+import { inputText } from "./redux/actions";
 
-function Title(props) {
+function Title() {
   const text = useSelector((state) => {
     const { inputReducer } = state;
     return inputReducer.text;
@@ -15,7 +15,7 @@ function Title(props) {
   return (
     <div className="card-title">
       <div className="card-title-top">
-        <input type={'text'} onChange={handleChange} />
+        <input type={"text"} onChange={handleChange} />
       </div>
       <p>{text}</p>
     </div>

@@ -1,8 +1,8 @@
-import Likes from './Likes';
-import Title from './Title';
-import Comments from './Comments';
-import Spin from './Spin';
-import './App.css';
+import Likes from "./Likes";
+import Title from "./Title";
+import Comments from "./Comments";
+import Spin from "./Spin";
+import "./App.css";
 
 function App() {
   return (

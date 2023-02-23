@@ -1,4 +1,4 @@
-import { INCREMENT, DECREMENT } from './types';
+import { INCREMENT, DECREMENT } from "./types";
 
 const initialState = {
   like: 0,

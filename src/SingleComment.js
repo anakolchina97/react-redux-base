@@ -1,9 +1,9 @@
-import { useState, useEffect } from 'react';
-import { useDispatch } from 'react-redux';
-import { commentUpdate, commentDelete } from './redux/actions';
+import { useState, useEffect } from "react";
+import { useDispatch } from "react-redux";
+import { commentUpdate, commentDelete } from "./redux/actions";
 
 function SingleComment({ data }) {
-  const [commentText, setCommentText] = useState('');
+  const [commentText, setCommentText] = useState("");
   const { text, id } = data;
   const dispatch = useDispatch();
 
@@ -32,8 +32,8 @@ function SingleComment({ data }) {
       <div onClick={handleDelete} className="comments-item-delete">
         &times;
       </div>
-      <input type={'text'} value={commentText} onChange={handleInput} />
-      <input type={'submit'} hidden />
+      <input type={"text"} value={commentText} onChange={handleInput} />
+      <input type={"submit"} hidden />
     </form>
   );
 }
